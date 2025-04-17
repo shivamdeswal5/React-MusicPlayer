@@ -1,0 +1,92 @@
+.side-bar-container{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.side-bar{
+    background-color: #121212;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 12%;
+    color: white;
+}
+
+.side-bar-home{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.side-bar-home img{
+    width: 1.5rem;
+}
+
+.side-bar-search{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.side-bar-search img{
+    width: 1.5rem;
+}
+
+.sidebar-library{
+    background-color: #121212;
+    height: 85%;
+    border-radius: 12px;
+}
+
+.library-content{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.library{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.library img{
+    width: 1.5rem;
+}
+
+.library-icons{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.library-icons img{
+    width: 1rem;
+}
+
+.sidebar-createplaylist{
+    padding: 1rem;
+    background-color: #242424;
+    margin: 1rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.createplaylist-Btn{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border-radius: 12px;
+    padding: 1rem;
+}

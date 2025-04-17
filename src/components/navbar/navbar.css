@@ -1,0 +1,45 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-icons{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-icons img {
+    width: 1rem;
+    cursor: pointer;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.explore-premium{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.premium{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 0.4rem;
+}
+
+.listen-types{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem;
+}
+.listen-all{
+    background-color: white;
+    color: black;
+    border-radius: 12px;
+    padding: 0.3rem;
+}

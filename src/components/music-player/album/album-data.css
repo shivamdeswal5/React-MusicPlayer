@@ -1,0 +1,52 @@
+.album-data{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.album-data img{
+    width: 10rem;
+    border-radius: 12px;
+
+}
+
+.album-songs{
+    display: flex;
+    flex-direction: column;
+}
+
+.paraSpotify {
+    gap: 1rem;
+}
+
+.paraSpotify img{
+    width: 1rem;
+    display: inline-block;
+
+}
+
+.albumSongs{
+    display: grid;
+    grid-template-columns:  auto auto auto auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.albumSongs img{
+    width: 1.5rem;
+}
+
+.map-songs{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+
+    
+}
+
+.map-songs img {
+    width: 3rem;
+    border-radius: 2rem;
+    gap: 1rem;
+}

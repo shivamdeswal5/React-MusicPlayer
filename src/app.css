@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top-level-container{
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.music-player{
+  height: 90%;
+  display: flex;
+  color: white;
+}

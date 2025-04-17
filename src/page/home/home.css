@@ -1,0 +1,10 @@
+.music-list-container{
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.all-albums{
+    display: flex;
+    overflow: auto;
+    padding: 1rem;
+}

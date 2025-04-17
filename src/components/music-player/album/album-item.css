@@ -1,0 +1,16 @@
+.album-items{
+    min-width: 180x;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.album-items img{
+    border-radius: 10%;
+    width: 10rem;
+}
+
+.album-name{
+    font-weight: bold;
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+}

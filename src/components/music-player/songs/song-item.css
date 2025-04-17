@@ -1,0 +1,20 @@
+.song-items{
+    min-width: 180px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.song-items img{
+    border-radius: 10%;
+    width: 10rem;
+}
+
+.song-name{
+    font-weight: bold;
+    margin-top: 0.3rem;
+    margin-bottom: 0.2rem;
+}
+
+.map-songs:hover{
+    background-color: rgba(207, 207, 207, 0.39);
+    cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.player-container{
+    height: 10%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 1rem;
+}
+.playercontainer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.playercontainer img{
+    width: 5rem;
+}
+
+.player-music-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.music-bar{
+    display: flex;
+    gap: 1rem;
+}
+
+.music-bar img{
+    width: 1.5rem;
+}
+
+.player-progressBar{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.progressBar{
+    width: 60vw;
+    max-width: 500px;
+    background-color: rgba(165, 165, 165, 0.87);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.progressBar hr{
+    height: 0.25rem;
+    width: 0;
+    border: 0px;
+    background-color: green;
+    /* border-radius: 50%; */
+}
+
+.player-playBtn{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    opacity: 0.7;
+}
+.player-playBtn img{
+    width: 1rem;
+}
+
+.style-div{
+    width: 2rem;
+    background-color: azure;
+    border-radius: 50%;
+    height: 0.25rem;
+}
