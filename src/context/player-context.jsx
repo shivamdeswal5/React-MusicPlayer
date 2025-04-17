@@ -7,8 +7,9 @@ export const PlayerContext = createContext();
 
 const PlayerContextProvider = (props) =>{
 
-    const audioRef = useRef();
     const seekBar = useRef();
+    const audioRef = useRef();
+    const seekBg = useRef();
 
     const [track,setTrack] = useState(songsData[0]);
     const [playStatus,setPlayStatus] = useState(false);
@@ -85,15 +86,22 @@ const PlayerContextProvider = (props) =>{
         audioRef.current.currentTime = ((e.nativeEvent.offsetX / seekBg.current.offsetWidth)*audioRef.current.duration)
     }
 
+    const shuffle = async () => {
+        let randomId = Math.floor(Math.random() * songsData.length);
+        await setTrack(songsData[randomId]);
+        await audioRef.current.play();
+        setPlayStatus(true);
+    };
+
     const contextValue = {
         audioRef,
         seekBar,
-        track,setTrack,
+        track,setTrack,seekBg,
         playStatus,setPlayStatus,
         time,setTime,
         play,pause, playWithId,
         prev,next,
-        seekSong
+        seekSong, shuffle
     }
 
     return (

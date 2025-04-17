@@ -1,10 +1,18 @@
-.music-list-container{
-    margin-bottom: 1rem;
-    padding: 1rem;
+.music-list-container {
+  padding: 1rem;
+  width: auto;
 }
 
-.all-albums{
-    display: flex;
-    overflow: auto;
-    padding: 1rem;
+.all-albums {
+  display: flex;
+  overflow: auto;
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .all-albums {
+    flex-direction: column;
+  }
 }

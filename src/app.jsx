@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='top-level-container'>
       <div className='music-player'>
-        <Sidebar/>
+        {/* <Sidebar/> */}
         <Display/>
       </div>
       <Player/>

@@ -5,7 +5,7 @@ import { PlayerContext } from '../../../context/player-context'
 
 export default function player() {
 
-    const {seekBar,seekBg,play,pause,playStatus,track,time,next,prev,seekSong} = useContext(PlayerContext);
+    const {seekBar,seekBg,play,pause,playStatus,track,time,next,prev,seekSong,shuffle} = useContext(PlayerContext);
   return (
     <div className='player-container'>
         <div className='playercontainer'>
@@ -25,7 +25,7 @@ export default function player() {
                     <img onClick={play} src={assets.play_icon} alt="" />
                 }
                 <img onClick={next} src={assets.next_icon} alt="" />
-                <img  src={assets.loop_icon} alt="" />
+                <img onClick={shuffle} src={assets.loop_icon} alt="" />
             </div>
             
             <div className='player-progressBar'>

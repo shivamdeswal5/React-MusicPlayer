@@ -5,9 +5,12 @@
 }
 
 .top-level-container{
-  height: 100vh;
+  height: 100%;
   background-color: black;
   color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .music-player{
